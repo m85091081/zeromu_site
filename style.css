@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
     background-position: center center;
     background-repeat: no-repeat;
-    background-color: #ffe0e0;
+    background-color: rgba(0, 0, 0);
     font-family:  'Source Han Sans TC', 'Open Sans Han TWHK', Roboto,
         'Noto Sans CJK TC', 'Noto Sans T Chinese', 'Source Han Sans TC',
         '黑體-繁', 'Heiti TC', '蘋果儷中黑', 'Apple LiGothic Medium',
@@ -12,23 +12,16 @@ body {
         '文泉驛微米黑', 'WenQuanYi Micro Hei', '文泉驛正黑',
         'Droid Sans', 'Droid Sans Fallback','sans-serif';		
 }
-
-#NyanDiv{ 
-	position: fixed; 
-	right: 0px;
-	bottom: 0px;
-    z-index:99999;
-} 
-
+ 
 #outer {
-    background: rgba(255, 255, 255, 0.75);
+    background: rgba(225,225,225,0.8);
     width: 960px;
     overflow: hidden;
 }
 
 #top {
     color: #fff;
-    background: rgba(255, 5, 0, 0.70);
+    background: rgba(0, 35, 255, 0.5);
     text-align: right;
     padding: 2px 5px 3px;
     width: 950px;
@@ -47,7 +40,7 @@ body {
 
 #banner a {
     display: block;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 #banner a, #banner img {
@@ -69,7 +62,7 @@ body {
 	border: 1px;
     font-size: 28px;
     color: #fff;
-    background: rgba(255, 5, 0, 0.50);
+    background: rgba(0, 35, 255, 0.8);
 }
 
 #main ul .content {
@@ -132,7 +125,7 @@ body {
     padding: 22px;
     padding-bottom: 32px;
     color: #fff;
-    background: rgba(255, 5, 0, 0.70);
+    background: rgba(0, 35, 255, 0.8);
 }
 
 @media screen and (max-width: 960px) {
