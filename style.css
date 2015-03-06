@@ -1,0 +1,150 @@
+body {
+    margin: 0 0 0;
+    background-image:url("http://fc09.deviantart.net/fs70/f/2014/049/e/f/love_live_group_render_by_totoro_gx-d76zeqx.png") ;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-color: #ffe0e0;
+    font-family:  'Source Han Sans TC', 'Open Sans Han TWHK', Roboto,
+        'Noto Sans CJK TC', 'Noto Sans T Chinese', 'Source Han Sans TC',
+        '黑體-繁', 'Heiti TC', '蘋果儷中黑', 'Apple LiGothic Medium',
+        '微軟雅黑', 'Microsoft YaHei ', '微軟正黑體', 'Microsoft JhengHei',
+        '文泉驛微米黑', 'WenQuanYi Micro Hei', '文泉驛正黑',
+        'Droid Sans', 'Droid Sans Fallback','sans-serif';		
+}
+
+#NyanDiv{ 
+	position: fixed; 
+	right: 0px;
+	bottom: 0px;
+    z-index:99999;
+} 
+
+#outer {
+    background: rgba(255, 255, 255, 0.75);
+    width: 960px;
+    overflow: hidden;
+}
+
+#top {
+    color: #fff;
+    background: rgba(255, 5, 0, 0.70);
+    text-align: right;
+    padding: 2px 5px 3px;
+    width: 950px;
+    position:fixed;
+    z-index:99999;
+}
+
+#top a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#top a:hover {
+    color: #cff;
+}
+
+#banner a {
+    display: block;
+    margin: 0 auto;
+}
+
+#banner a, #banner img {
+	padding-top: 15px;
+    width: 330px;
+}
+
+#main {
+    text-align: center;
+}
+
+#main ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#main ul .title {
+	border: 1px;
+    font-size: 28px;
+    color: #fff;
+    background: rgba(255, 5, 0, 0.50);
+}
+
+#main ul .content {
+    margin: 0 48px;
+    padding: 18px 48px 32px;
+    font-size: 22px;
+    color: #252525;
+}
+
+#main ul .content.youtube {
+    padding: 10px;
+    text-align: center;
+}
+
+#main ul {
+    -webkit-perspective: 600px;
+       -moz-perspective: 600px;
+        -ms-perspective: 600px;
+         -o-perspective: 600px;
+            perspective: 600px;
+
+    -webkit-perspective-origin: 50% 50%;
+       -moz-perspective-origin: 50% 50%;
+        -ms-perspective-origin: 50% 50%;
+         -o-perspective-origin: 50% 50%;
+            perspective-origin: 50% 50%;
+}
+
+#main li {
+    -webkit-transform: translateZ(0);
+       -moz-transform: translateZ(0);
+        -ms-transform: translateZ(0);
+         -o-transform: translateZ(0);
+            transform: translateZ(0);
+
+    -webkit-transition: all 600ms ease, opacity 200ms ease;
+       -moz-transition: all 600ms ease, opacity 200ms ease;
+        -ms-transition: all 600ms ease, opacity 200ms ease;
+         -o-transition: all 600ms ease, opacity 200ms ease;
+            transition: all 600ms ease, opacity 200ms ease;
+
+    -webkit-transform-origin: 50% 50%;
+       -moz-transform-origin: 50% 50%;
+        -ms-transform-origin: 50% 50%;
+         -o-transform-origin: 50% 50%;
+            transform-origin: 50% 50%;
+}
+
+#main li.past {
+    opacity: 0;
+
+    -webkit-transform: rotateY(180deg);
+       -moz-transform: rotateY(180deg);
+        -ms-transform: rotateY(180deg);
+         -o-transform: rotateY(180deg);
+            transform: rotateY(180deg);
+}
+
+#footer {
+    padding: 22px;
+    padding-bottom: 32px;
+    color: #fff;
+    background: rgba(255, 5, 0, 0.70);
+}
+
+@media screen and (max-width: 960px) {
+    #outer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 961px) {
+    #outer {
+        position: absolute;
+        left: 50%;
+        margin-left: -480px;
+    }
+}
