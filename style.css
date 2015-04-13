@@ -73,7 +73,6 @@ body {
 
 #main {
 	margin-left:300px;
-    text-align: center;
     overflow: hidden;
 }
 
@@ -88,9 +87,11 @@ body {
     font-size: 28px;
     color: #fff;
     background: rgba(40, 40, 40, 1);
+    text-align: center;
 }
 
 #main ul .content {
+	text-align: left;
     margin: 0 48px;
     padding: 18px 48px 32px;
     font-size: 22px;
