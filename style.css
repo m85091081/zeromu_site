@@ -155,17 +155,17 @@ body {
     background: rgba(40, 40, 40, 1);
 }
 
-@media screen and (max-width: 1255bpx) {
+@media screen and (max-width: 1225bpx) {
     #outer {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 1255px) {
+@media screen and (min-width: 1225px) {
     #outer {
         position: absolute;
         left: 50%;
-        margin-left:-627.5px;
+        margin-left:-612.5px;
     }
 
 }
