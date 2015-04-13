@@ -9,11 +9,11 @@ body {
         '文泉驛微米黑', 'WenQuanYi Micro Hei', '文泉驛正黑',
         'Droid Sans', 'Droid Sans Fallback',
         sans-serif;		
-        background: #ffd79b;
+        background: #000000;
         font-weight: 300;
   	}
 	#wrapper {
-		background-color: #ffe7c1;
+		background-color: #ffffff;
 		padding: 0; 
 		height:100%;
 		position: relative;

@@ -1,10 +1,7 @@
 body {
     margin: 0 0 0;
-    background-image:url("http://fc09.deviantart.net/fs70/f/2014/049/e/f/love_live_group_render_by_totoro_gx-d76zeqx.png") ;
-    background-attachment: fixed;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-color: rgba(0, 0, 0);
+    background-color: #000000;
+    height: 100%;
     font-family:  'Source Han Sans TC', 'Open Sans Han TWHK', Roboto,
         'Noto Sans CJK TC', 'Noto Sans T Chinese', 'Source Han Sans TC',
         '黑體-繁', 'Heiti TC', '蘋果儷中黑', 'Apple LiGothic Medium',
@@ -12,21 +9,40 @@ body {
         '文泉驛微米黑', 'WenQuanYi Micro Hei', '文泉驛正黑',
         'Droid Sans', 'Droid Sans Fallback','sans-serif';		
 }
- 
 #outer {
-    background: rgba(225,225,225,0.8);
-    width: 960px;
+    background: rgba(255, 255, 255, 1);
+    width: 1224px;
+    overflow: auto;
+    margin: 0 auto;
+    display:inline-block;
+    height: auto;
+}
+#left {
+    background: rgba(40, 40, 40, 1);
+	width: 300px;
+	height: 100%;
+	position:fixed;
+    z-index:99999;
     overflow: hidden;
 }
+#left a, #left img {
+	padding-left: 7.5px;
+	text-align: center;
+    width: 270px;
+}
+
+
 
 #top {
+	margin-left:300px;
     color: #fff;
-    background: rgba(0, 35, 255, 0.5);
-    text-align: right;
+    background: rgba(40, 40, 40, 1);
+    text-align: left;
     padding: 2px 5px 3px;
-    width: 950px;
+    width: 814px;
     position:fixed;
     z-index:99999;
+    overflow: hidden;
 }
 
 #top a {
@@ -38,9 +54,11 @@ body {
     color: #cff;
 }
 
-#banner a {
+
+
+#banner  {
+	margin-left:300px;
     display: block;
-    margin: 25px auto;
 }
 
 #banner a, #banner img {
@@ -49,7 +67,9 @@ body {
 }
 
 #main {
+	margin-left:300px;
     text-align: center;
+    overflow: hidden;
 }
 
 #main ul {
@@ -62,7 +82,7 @@ body {
 	border: 1px;
     font-size: 28px;
     color: #fff;
-    background: rgba(0, 35, 255, 0.8);
+    background: rgba(40, 40, 40, 1);
 }
 
 #main ul .content {
@@ -122,22 +142,25 @@ body {
 }
 
 #footer {
+	margin-left: 300px;
+	z-index: 99999;
     padding: 22px;
     padding-bottom: 32px;
     color: #fff;
-    background: rgba(0, 35, 255, 0.8);
+    background: rgba(40, 40, 40, 1);
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 1255bpx) {
     #outer {
         width: 100%;
     }
 }
 
-@media screen and (min-width: 961px) {
+@media screen and (min-width: 1255px) {
     #outer {
         position: absolute;
-        left: 50%;
-        margin-left: -480px;
+        left: 100%;
+        margin-left:-1255px;
     }
+
 }
