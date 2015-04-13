@@ -35,6 +35,11 @@ body {
 	text-align: right;
 	padding-right: 45px;
 }
+#bottom {
+	position:fixed;
+	bottom: 0px;
+	text-align: center;
+}
 
 
 
@@ -91,11 +96,11 @@ body {
 }
 
 #main ul .content {
-	text-align: left;
     margin: 0 48px;
     padding: 18px 48px 32px;
     font-size: 22px;
     color: #252525;
+    text-align: left;
 }
 
 #main ul .content.youtube {
