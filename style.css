@@ -21,14 +21,19 @@ body {
     background: rgba(40, 40, 40, 1);
 	width: 300px;
 	height: 100%;
+	color: #ffffff;
 	position:fixed;
     z-index:99999;
     overflow: hidden;
 }
 #left a, #left img {
-	padding-left: 7.5px;
 	text-align: center;
     width: 270px;
+    	padding-left: 10px;
+}
+#left p {
+	text-align: right;
+		padding-right: 45px;
 }
 
 
@@ -159,8 +164,8 @@ body {
 @media screen and (min-width: 1255px) {
     #outer {
         position: absolute;
-        left: 100%;
-        margin-left:-1255px;
+        left: 50%;
+        margin-left:-627.5px;
     }
 
 }
