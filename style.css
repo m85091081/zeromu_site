@@ -145,6 +145,102 @@ body {
          -o-transform-origin: 50% 50%;
             transform-origin: 50% 50%;
 }
+.skills-resume {
+    border-bottom: 4px solid #02a1d9;
+    padding-bottom: 20px;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.skills-resume .lft {
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.skills-resume .lft h2 {
+    text-shadow: 0 0 9px #02a1d9;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'terminal_dosisbold', sans-serif;
+    font-size: 30px;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+}
+.skills-resume .rgt {
+    float: left;
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: right !important;
+    float: right;
+    padding-top: 30px;
+    margin-bottom: 20px;
+}
+.skills-resume .rgt .graph {
+    width: 433px;
+    height: 298px;
+    background: url('/uploads/141004/sprite.png') no-repeat 80px 20px;
+    margin: 0px auto;
+}
+.skills-resume .rgt .keywords {
+    position: relative;
+    width: 100%;
+    display: block;
+    height: 100%;
+    margin: 0;
+}
+.skills-resume .rgt .keywords .keyword {
+    position: absolute;
+    display: block;
+    font-size: 16px;
+    color: #a7a7a7;
+    font-weight: normal;
+}
+.skills-resume .rgt .keywords .keyword.webdesign {
+    top: 40px;
+    left: 33px;
+}
+.skills-resume .rgt .keywords .keyword.html-css {
+    left: 152px;
+}
+.skills-resume .rgt .keywords .keyword.integration-design {
+    left: 0;
+    top: 130px;
+    text-align: right;
+}
+.skills-resume .rgt .keywords .keyword.cms-joomla-wordpress {
+    left: 345px;
+    top: 110px;
+}
+.skills-resume .rgt .keywords .keyword.reference-naturel {
+    left: 315px;
+    top: 40px;
+}
+.skills-resume .rgt .keywords .keyword.jquery-javascript {
+    top: 235px;
+    left: 50px;
+}
+.skills-resume .rgt .keywords .keyword.e-commerce {
+    left: 164px;
+    bottom: -25px;
+    text-align: center;
+}
+.skills-resume .rgt .keywords .keyword.php5-mysql {
+    right: 20px;
+    bottom: 20px;
+}
 
 #main li.past {
     opacity: 0;
@@ -154,6 +250,71 @@ body {
         -ms-transform: rotateY(180deg);
          -o-transform: rotateY(180deg);
             transform: rotateY(180deg);
+}
+
+{
+serif;
+  padding: 2em;
+}
+
+
+progress, progress[role] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+  background-size: auto;
+  height: 3px;
+  width: 50%;
+}
+
+.skill-list {
+  list-style: none;
+  margin: 0;
+  padding: 1px;
+  padding: 5px;
+line-height:5px;
+}
+
+.skill {
+  margin-bottom: 1px;
+  position: relative;
+  h3 {
+    color: #fff;
+    left: 10px;
+    line-height: 1;
+    position: absolute;
+    top: 10px;
+    text
+  }
+  ::-webkit-progress-value { 
+    -webkit-animation: bar-fill 2s;
+    width: 0px;
+  }
+}
+
+.skill-1::-webkit-progress-value {
+  background: #ff6b6b;
+}
+
+.skill-1::-moz-progress-bar {
+  background: #ff6b6b;
+}
+
+.skill-2::-webkit-progress-value {
+  background: #ff6b6b;
+}
+
+.skill-2::-moz-progress-bar {
+  background: #ff6b6b;
+}
+
+.skill-3::-webkit-progress-value {
+  background: #ff6b6b;
+}
+
+.skill-3::-moz-progress-bar {
+  background: #ff6b6b;
 }
 
 #footer {
@@ -177,5 +338,12 @@ body {
         left: 50%;
         margin-left:-612.5px;
     }
+@-webkit-keyframes bar-fill {
+  0% { width: 0; }
+}
+
+@keyframes bar-fill {
+  0% { width: 0; }
+}
 
 }
