@@ -1,47 +1,203 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
-    <head>
-        <meta charset="utf-8">
-        <title>About ME </title>
-        <link rel="stylesheet" href="global.css"/>
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-    </head>
-    <body>
-        <header id="top" class="navbar navbar-static-top navga" role="banner">
-            <div class="container">
-                <div class="navbar-header">
-                    <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="../" class="navbar-brand">ZeroMu Site</a>
-                </div>
-                <nav id="bs-navbar" class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav">
-                        <li>
-                            <a href="../getting-started/">Getting started</a>
-                        </li>
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="http://expo.getbootstrap.com" onclick="ga('send', 'event', 'Navbar', 'Community links', 'Expo');">Expo</a></li>
-                    </ul>
-                </nav>
-            </div> 
-        </header>
-        <main id="content" class="contentstyle">
-            <div class="container">
-            
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>ZeroMu Site</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/global.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    { #ZeroMu }
+                    </a>
             </div>
-        </main>
-    </body>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#About">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Skills">Skills</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Project">Project</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#Team">Y3CDS</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
 
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+            <div class="intro-lead-in">Who Am I ?</div>
+                    <div class="intro-heading">I am Open Source Coder</div>
+                <a href="#About" class="page-scroll btn btn-xl">Tell Me More</a>
+            </div>
+        </div>
+    </header>
 
+    <!-- About Section -->
+    <section id="About">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="s-h">關於我</h2>
+                    <h3 class="s-sh text-muted">About Me</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h4 class="service-heading">學歷</h4>
+                    <p class="text-muted">大安高工 建築科,Arch 99 畢業</p>
+                    <p class="text-muted">國立雲林科技大學,NYUST 營建工程系,CE 102 轉系</p>
+                    <p class="text-muted">國立雲林科技大學,NYUST 資訊工程系,CSIE 103 在學</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="service-heading">社群</h4>
+                    <p class="text-muted">SITCON 學生計算機年會 2016 行政組會議記錄</p>
+                    <p class="text-muted">SITCON Camp 學生計算機年會 2015 課程組</p>
+                    <p class="text-muted">COSCUP 開源人年會 2015 場務組</p>
+                </div>
+                <div class="col-md-4">
+                    <h4 class="service-heading">興趣</h4>
+                    <p class="text-muted">遊戲 與 軟體加解密逆向工程</p>
+                    <p class="text-muted">數位攝影 以及 影像編修</p>
+                    <p class="text-muted">IOT / 嵌入式硬體 相關實務</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <!-- Skills Section -->
+    <section id="Skills" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="s-h">技能樹</h2>
+                    <h3 class="s-sh text-muted">Skill Tree</h3>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
 
+    <!-- Project Section -->
+    <section id="Project">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="s-h">參與專案</h2>
+                    <h3 class="s-sh text-muted">大大小小不管是有沒有得獎</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="Team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="s-h">雲林開源的綠洲</h2>
+                    <h3 class="s-sh text-muted">Y3CDS雲林科技大學數位3C研究社</h3>
+                </div>
+            </div>
+            <div class="row">
+            </div>
+            <div class="row">
+            </div>
+        </div>
+    </section>
+
+    <!-- Clients Aside -->
+    <aside class="clients">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <a href="#">
+                        <img src="http://static.jeremybuff.com/img/technology-icon-bootstrap.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-6 col-sm-6">
+                    <a href="#">
+                        <img src="http://itjobsco.com/wp-content/themes/wpjobus/images/github_logo.png" class="img-responsive img-centered" alt="">
+                </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-1">
+                </div>
+                <div class="col-md-10">
+                    <span class="copyright">本網站使用Bootstrap模版以及參造相依主題Agency製作而成，歡迎前往Github查看原始碼，相片以及文字由零夢所有禁止轉載。 </span>  
+                </div>
+                <div class="col-md-1">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/cbpAnimatedHeader.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/agency.js"></script>
+
+</body>
 
 </html>
+
